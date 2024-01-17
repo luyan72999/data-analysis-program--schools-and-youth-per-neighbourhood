@@ -1,20 +1,21 @@
 
-Purpose of the data dashboard: 
+### Purpose of the data dashboard: 
 
-Analyzing whether schools are sufficient (or proportional) to the number of young people in each neighbourhood, 
+Analyzing whether schools are sufficient (or proportional) to the number of young people in each neighbourhood of Vancouver, 
 by calculating the number of schools, the number of young students between age 5 to 19, the average number of students per school in each neighbourhood.
-It also allows users to find information on schools and the number of young students in a particular neighbourhood.
+You can also find information about schools and the number of young students in a particular neighbourhood.
 
 
-Two data sets are chosen:
+### Two data sets are chosen:
 
-(1) This dataset contains the number of population per neighbourhood and people's age
+(1) The number of people per neighbourhood and their age.
 https://webtransfer.vancouver.ca/opendata/csv/CensusLocalAreaProfiles2011.csv
-(2) This dataset contains the information of every school in Vancouver, and its type and its corresponding neighbourhood.
+
+(2) The information about every school in Vancouver, including its type and its corresponding neighbourhood.
 https://opendata.vancouver.ca/explore/dataset/schools/information/
 
 
-User interface guide:
+### User interface guide:
 
 (1) If you enter a school name, for example "Fraser Academy" or  "Little Flower Academy" and click the Search button, 
       a message of school type and school neighbourhood is shown.
