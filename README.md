@@ -1,29 +1,63 @@
-
-### Purpose of the data dashboard: 
-
-Analyzing whether schools are sufficient (or proportional) to the number of young people in each neighbourhood of Vancouver, 
-by calculating the number of schools, the number of young students between age 5 to 19, the average number of students per school in each neighbourhood.
-You can also find information about schools and the number of young students in a particular neighbourhood.
+# Data Dashboard for School and Youth Analysis in Vancouver
 
 
-### Two data sets are chosen:
-
-(1) The number of people per neighbourhood and their age. <br>
-https://webtransfer.vancouver.ca/opendata/csv/CensusLocalAreaProfiles2011.csv
-
-(2) The information about every school in Vancouver, including its type and its corresponding neighbourhood. <br>
-https://opendata.vancouver.ca/explore/dataset/schools/information/
 
 
-### User interface guide:
+## Purpose
+The purpose of this data dashboard is to assess the adequacy of schools in relation to the number of young people in each neighborhood of Vancouver. 
 
-(1) If you enter a school name, for example "Fraser Academy" or  "Little Flower Academy" and click the Search button, 
-      a message of school type and school neighbourhood is shown. <br>
-(2) If you enter a neighbourhood name, for example "Downtown" or "Sunset" and click the Search button,
-      a message of the number of schools, the number of young people, the average number of students per school in this neighbourhood is shown. <br>
-(3) If you click Show schools in all neighbourhoods button, the program does the data analysis on neighbourhoods and schools, 
-     and shows you the analysis graph. <br>
-(4)  If you click Show students in all neighbourhoods button, the program does the data analysis on neighbourhoods and students, 
-     and shows you the analysis graph. <br>
-(5) If you click Show average number of students per school button, the program does the data analysis on neighbourhoods, schools, and students, 
-     and shows you the analysis graph. <br>
+
+This is achieved by calculating the number of schools, the number of young students aged 5 to 19, and the average number of students per school in each neighborhood. 
+
+
+Additionally, users can find detailed information about the schools and the number of young students in a specific neighborhood.
+
+
+## Data Sources
+Two primary datasets are utilized for analysis:
+
+### Neighborhood Demographics
+
+Dataset: Census Local Area Profiles 2011
+The dataset contains information about the number of people in each neighborhood and their age.
+
+### School Information
+
+Dataset: Vancouver Schools Information
+The dataset contains information about every school in Vancouver, such as type and corresponding neighborhood.
+
+## User Interface Guide
+
+### Search by school
+View information about the school type and its neighborhood.
+
+
+Enter a school name (e.g., "Fraser Academy" or "Little Flower Academy"), then click the Search button.
+
+
+### Search by neighborhood
+View information about the number of schools, young people, and the average number of students per school in the selected neighborhood.  
+
+
+Enter a neighborhood name (e.g., "Downtown" or "Sunset"), then click the Search button.
+
+
+### Show schools in all neighborhoods
+View the data analysis graph on neighborhoods and schools.
+
+
+Click the "Show schools in all neighborhoods" button.
+
+
+### Show students in all neighborhoods
+View the data analysis graph on neighborhoods and students.
+
+
+Click the "Show students in all neighborhoods" button.
+
+
+### Show average number of students per school
+View the data analysis graph on neighborhoods, schools, and students.
+
+
+Click the "Show average number of students per school" button.
