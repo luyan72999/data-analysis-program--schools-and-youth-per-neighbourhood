@@ -28,6 +28,8 @@ The dataset contains information about every school in Vancouver, such as type a
 
 ## User Interface Guide
 
+Download all the files in this repository and put them into a single folder, then run the file **data_dashboard.py**. A user interface is shown.
+
 ### Search by school
 View information about the school type and its neighborhood.
 
